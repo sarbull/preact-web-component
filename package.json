@@ -1,0 +1,32 @@
+{
+  "name": "preact-web-component",
+  "version": "0.0.0",
+  "description": "Preact Web Component",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack -p"
+  },
+  "keywords": [
+    "preact",
+    "web",
+    "component"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^8.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
